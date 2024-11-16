@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; img-src * 'unsafe-inline'; media-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline' 'unsafe-eval' *; script-src * 'unsafe-inline' 'unsafe-eval' *">
+
+    <title>fingerboard</title>
+<script src="main.js"></script>
+</head>
+<body>
+    <p>
+    chord/scale: <input type="text" name="chord" id="chord-input" value="g b d f#">
+    tuning: <input type="text" name="tuning" id="tuning-input" value="e a d g b e">
+        number of frets: <input type="number" name="numFrets" id="numFrets-input" value="22">
+        <button id="draw-btn" type=""> draw! </button>
+    </p>
+    <p>
+    <canvas id="fingerboard-canvas" width="1500" height="500"style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+    </p>
+
+</body>
+</html>
